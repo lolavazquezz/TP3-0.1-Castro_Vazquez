@@ -10,13 +10,6 @@ root.render(
     <App />
   </React.StrictMode>
 );
-/* componentes:
-Apptitulo
-subtitulo x2
-Form citas
-   citas3
-Form reservar
-   */
 
 
 // If you want to start measuring performance in your app, pass a function

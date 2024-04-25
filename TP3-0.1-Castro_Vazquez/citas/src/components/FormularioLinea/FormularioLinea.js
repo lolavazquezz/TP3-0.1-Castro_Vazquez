@@ -4,7 +4,7 @@ const FormularioLinea = ({tipo, nombre, label, placeholder}) => {
     return (
         <>
             <label>{label}</label>
-            { tipo === 'textarea' ? <textarea></textarea> : <input type={tipo} name={nombre} placeholder={placeholder}></input>}
+            { tipo === 'textarea' ? <textarea class="u-full-width"></textarea> : <input type={tipo} name={nombre} placeholder={placeholder} class="u-full-width"></input>}
         </>  
     )
 }
