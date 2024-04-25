@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.ae37492b.css",
-    "main.js": "/react-gh-pages/static/js/main.82d238b9.js",
-    "static/js/453.8c80987c.chunk.js": "/react-gh-pages/static/js/453.8c80987c.chunk.js",
-    "index.html": "/react-gh-pages/index.html",
-    "main.ae37492b.css.map": "/react-gh-pages/static/css/main.ae37492b.css.map",
-    "main.82d238b9.js.map": "/react-gh-pages/static/js/main.82d238b9.js.map",
-    "453.8c80987c.chunk.js.map": "/react-gh-pages/static/js/453.8c80987c.chunk.js.map"
+    "main.css": "/TP3-0.1-Castro_Vazquez/static/css/main.ae37492b.css",
+    "main.js": "/TP3-0.1-Castro_Vazquez/static/js/main.a74547fc.js",
+    "static/js/453.8c80987c.chunk.js": "/TP3-0.1-Castro_Vazquez/static/js/453.8c80987c.chunk.js",
+    "index.html": "/TP3-0.1-Castro_Vazquez/index.html",
+    "main.ae37492b.css.map": "/TP3-0.1-Castro_Vazquez/static/css/main.ae37492b.css.map",
+    "main.a74547fc.js.map": "/TP3-0.1-Castro_Vazquez/static/js/main.a74547fc.js.map",
+    "453.8c80987c.chunk.js.map": "/TP3-0.1-Castro_Vazquez/static/js/453.8c80987c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ae37492b.css",
-    "static/js/main.82d238b9.js"
+    "static/js/main.a74547fc.js"
   ]
 }
