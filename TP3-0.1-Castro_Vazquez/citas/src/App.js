@@ -3,7 +3,11 @@ import Titulo from './components/Titulo/Titulo';
 import Subtitulo from './components/Subtitulo/Subtitulo';
 import Cita from './components/Cita/Cita';
 import FormularioCrear from './components/FormularioCrear/FormularioCrear';
+import { useState } from 'react';
+
 function App() {
+  const [citas, setCitas] = useState([]);
+  
   return (
     <>
       <body>
@@ -12,7 +16,7 @@ function App() {
         <div class="row">
         <div class="one-half column">
         <Subtitulo texto="CREAR MI CITA"></Subtitulo>
-        <FormularioCrear></FormularioCrear> 
+        <FormularioCrear citas={citas} setCitas={setCitas}></FormularioCrear> 
       </div>
       <div class="one-half column"> 
         <Subtitulo texto="ADMINISTRA TUS CITAS"></Subtitulo>
