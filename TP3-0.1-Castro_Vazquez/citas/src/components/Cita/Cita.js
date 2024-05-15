@@ -1,13 +1,10 @@
 import { useState } from 'react';
-const Cita = ({nombreMascota, nombreDuenio, fecha, hora, sintomas}) => {
-    const eliminar = (e) => {
-        let pos = citas.findIndex(x => x.mascota === e.target.nombreMascota.value) //&& p => p.duenio === e.target.nombreDuenio.value) //preguntemosle como sacar la posicion buscando por index, a  q igualamos? nada es unico
-        meses.splice(pos, 1);
-        setCitas(
-            [
-                
-            ]
-        )
+const Cita = ({nombreMascota, nombreDuenio, fecha, hora, sintomas, id, citas, setCitas}) => {
+    const eliminar = () => {
+        if (window.confirm("Deseas eliminar la cita?")){
+            setCitas(citas.filter(c => c.id !== id))
+        }
+        
     }
     return (
         <div class="cita">
@@ -17,7 +14,7 @@ const Cita = ({nombreMascota, nombreDuenio, fecha, hora, sintomas}) => {
             <p>Fecha: <span>{fecha}</span></p>
             <p>Hora: <span>{hora}</span></p>
             <p>Sintomas: <span>{sintomas}</span></p>
-            <button onclick="eliminar()" class="button elimnar u-full-width" >Eliminar ×</button>
+            <button onClick={eliminar} class="button elimnar u-full-width" >Eliminar ×</button>
         </div>
     )
 }

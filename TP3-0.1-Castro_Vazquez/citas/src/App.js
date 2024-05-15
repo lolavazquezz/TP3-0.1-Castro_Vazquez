@@ -21,7 +21,7 @@ function App() {
             <div class="one-half column">
               <Subtitulo texto="ADMINISTRA TUS CITAS"></Subtitulo>
               <div class="lista-citas">
-                  {citas.map(c => <div class="cita"><Cita citas={citas} setCitas={setCitas} nombreMascota={c.mascota} nombreDuenio={c.duenio} fecha={c.fecha} hora={c.hora} sintomas={c.sintomas}></Cita></div>)}
+                  {citas.map(c => <div class="cita"><Cita citas={citas} setCitas={setCitas} nombreMascota={c.mascota} nombreDuenio={c.duenio} fecha={c.fecha} hora={c.hora} sintomas={c.sintomas} id={c.id}></Cita></div>)}
               </div>
             </div>
           </div>
