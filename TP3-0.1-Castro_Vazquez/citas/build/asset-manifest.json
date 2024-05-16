@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/TP3-0.1-Castro_Vazquez/static/css/main.7f4e35cf.css",
+    "main.js": "/TP3-0.1-Castro_Vazquez/static/js/main.ec868bc4.js",
+    "static/js/453.8c80987c.chunk.js": "/TP3-0.1-Castro_Vazquez/static/js/453.8c80987c.chunk.js",
+    "index.html": "/TP3-0.1-Castro_Vazquez/index.html",
+    "main.7f4e35cf.css.map": "/TP3-0.1-Castro_Vazquez/static/css/main.7f4e35cf.css.map",
+    "main.ec868bc4.js.map": "/TP3-0.1-Castro_Vazquez/static/js/main.ec868bc4.js.map",
+    "453.8c80987c.chunk.js.map": "/TP3-0.1-Castro_Vazquez/static/js/453.8c80987c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7f4e35cf.css",
+    "static/js/main.ec868bc4.js"
+  ]
+}
