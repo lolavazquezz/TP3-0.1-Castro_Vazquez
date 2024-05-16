@@ -1,0 +1,19 @@
+input[type="date"],input[type="text"],
+input[type="time"]  {
+  height: 38px;
+  padding: 6px 10px;
+  background-color: #fff;
+  border: 1px solid #D1D1D1;
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: border-box;
+  font-size: 0.67em;
+}
+label {
+    color: white;
+    font-size: 0.67em;
+  }
+  textarea{
+    font-size: 0.67em;
+  }
+  

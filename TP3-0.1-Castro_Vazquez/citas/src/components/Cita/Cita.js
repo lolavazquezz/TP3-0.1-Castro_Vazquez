@@ -1,3 +1,4 @@
+import "./Cita.css";
 import { useState } from 'react';
 const Cita = ({nombreMascota, nombreDuenio, fecha, hora, sintomas, id, citas, setCitas}) => {
     const eliminar = () => {
